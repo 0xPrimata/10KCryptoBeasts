@@ -69,7 +69,7 @@
       // Colour the current span according to current path colour
       let img = new Image();
       spanArray[currentIndex].appendChild(img);
-      img.src = "Egg"+currentColour+" (Custom).gif";
+      img.src = "Egg"+currentColour+".jpg";
       // spanArray[currentIndex].style.backgroundColor = colours[currentColour];
       if (isPrime(i-1)){
         spanArray[currentIndex].style.borderColor = "gold";
